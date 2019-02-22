@@ -33,6 +33,7 @@ This files includes the methods about calculation of chart sizes.
 
 - Now this is top priority (Feb 2019)
 - Need to reproduce the issue on the local env first
+- -> This doesn't happen in htdocs/samples/resize.html
 
 # DOM APIs
 
