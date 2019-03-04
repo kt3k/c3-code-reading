@@ -18,6 +18,10 @@ This file includes central mechanism of drawing of charts.
   - The hook called after init method
   - See [this](https://github.com/c3js/c3/blob/master/extensions/chart-bubble/bubble.js) for the example usages of beforeInit and afterInit
 
+- internal.initChartElements
+  - This function calls 5 methods initBar, initLine, initArc, initGauge, and initText
+  - I think the if statement for each method is very strange because they never become false.
+
 ## `//src/size.js`
 
 This files includes the methods about calculation of chart sizes.
